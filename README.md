@@ -4,9 +4,10 @@ Angular 图片裁剪的组件实在是太少了，大多数人都会选择在Ang
 [cropperjs](https://github.com/fengyuanchen/cropperjs/blob/master/README.md),
 看了cropperjs作者的[vue中的用法](https://fengyuanchen.github.io/photo-editor/)，这里
 我就重新整理了下Angular中如何优雅的使用cropperjs,当然更多的cropperjs
-的用法，可以查看作者的文档。此案例功能几乎与作者的vue版本一致，只是使用angular来实现的，希望喜欢的朋友
-可以start下，当然案例也存在一定的兼容性，目前本人在chrome和360安全浏览器的极速模式是可以正常运行的，在火狐
+的用法，可以查看作者的文档。此案例功能几乎与作者的vue版本一致，只是使用angular来实现的，当然案例也存在一定的兼容性，目前本人在chrome和360安全浏览器的极速模式是可以正常运行的，在火狐
 和IE10都会报错。cropperjs上也有提到有转换成ts版本的，目前没有进行更多的测试，大家可以[参考下](https://github.com/matheusdavidson/angular-cropperjs)
+
+## 希望喜欢的朋友start下   ^=^  ^=^  ^=^
 
 ### [在线预览](https://freezyh.github.io/angular-cropper/dist/angular-cropper/)
 
