@@ -1,0 +1,11 @@
+<div class="navbar">
+  <nav class="nav" (click)="click($event)">
+    <label class="nav__button" for="file" *ngIf="!sharedata.data.loaded" title="Upload" role="button"><span class="fa fa-upload"></span></label>
+    <button type="button" class="nav__button" data-action="restore" title="Undo (Ctrl + Z)" *ngIf="sharedata.data.cropped"><span class="fa fa-undo"></span></button>
+    <button type="button" class="nav__button nav__button--danger" data-action="remove" title="Delete (Delete)" *ngIf="sharedata.data.loaded && !sharedata.data.cropping"><span class="fa fa-trash"></span></button>
+    <button type="button" class="nav__button nav__button--danger" data-action="clear" title="Cancel (Esc)" *ngIf="sharedata.data.cropping"><span class="fa fa-ban"></span></button>
+    <button type="button" class="nav__button nav__button--success" data-action="crop" title="OK (Enter)" *ngIf="sharedata.data.cropping"><span class="fa fa-check"></span></button>
+    <a class="nav__button nav__button--success" title="Download" [download]="sharedata.data.name" [href]="imageUrl" *ngIf="downloadable && sharedata.data.loaded"><span class="fa fa-download"></span></a>
+    <a class="nav__button" href="https://github.com/freezyh/angular-cropper" title="View on GitHub"><span class="fa fa-github"></span></a>
+  </nav>
+</div>

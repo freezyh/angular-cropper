@@ -1,0 +1,34 @@
+.navbar {
+    float: right;
+}
+
+.nav__button {
+    background-color: transparent;
+    border-width: 0;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    float: left;
+    height: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    width: 3rem;
+    font-size: 1rem;
+
+    &:focus {
+        outline: none;
+    }
+
+    &:hover {
+        background-color: #0074d9;
+        color: #fff;
+    }
+}
+
+.nav--success:hover {
+    background-color: #2ecc40;
+}
+
+.nav--danger:hover {
+    background-color: #ff4136;
+}

@@ -1,0 +1,15 @@
+<div class="editor">
+  <div class="canvas" (dblclick)="dbClick($event)">
+    <img [src]="imageUrl" id="image"/>
+  </div>
+  <div class="toolbar" *ngIf="!sharedata.data.previousUrl" (click)="click($event)">
+    <button class="toolbar__button" data-action="move" title="Move (M)"><span class="fa fa-arrows"></span></button>
+    <button class="toolbar__button" data-action="crop" title="Crop (C)"><span class="fa fa-crop"></span></button>
+    <button class="toolbar__button" data-action="zoom-in" title="Zoom In (I)"><span class="fa fa-search-plus"></span></button>
+    <button class="toolbar__button" data-action="zoom-out" title="Zoom Out (O)"><span class="fa fa-search-minus"></span></button>
+    <button class="toolbar__button" data-action="rotate-left" title="Rotate Left (L)"><span class="fa fa-rotate-left"></span></button>
+    <button class="toolbar__button" data-action="rotate-right" title="Rotate Right (R)"><span class="fa fa-rotate-right"></span></button>
+    <button class="toolbar__button" data-action="flip-horizontal" title="Flip Horizontal (H)"><span class="fa fa-arrows-h"></span></button>
+    <button class="toolbar__button" data-action="flip-vertical" title="Flip Vertical (V)"><span class="fa fa-arrows-v"></span></button>
+  </div>
+</div>

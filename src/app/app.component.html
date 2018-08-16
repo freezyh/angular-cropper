@@ -1,0 +1,10 @@
+ <div class="app">
+  <header class="header">
+    <span class="title">Photo Editor</span>
+    <app-navbar (change)="navbarchange($event)"></app-navbar>
+  </header>
+  <main class="main">
+    <app-editor *ngIf="sharedata.data.loaded" #editor (updatecp)="updateChange($event)"></app-editor>
+    <app-loader *ngIf="!sharedata.data.loaded" (loader)="onChangeLoader($event)"></app-loader>
+  </main>
+</div>
