@@ -1,6 +1,14 @@
+# Angular图片裁剪
+Angular 图片裁剪的组件实在是太少了，大多数人都会选择在Angular使用JQuery的图片裁剪插件，
+但引入JQuery会相应的增加不少文件大小，这里我推荐大家使用fengyuanchen开源的原生js版本的
+[cropperjs](https://github.com/fengyuanchen/cropperjs/blob/master/README.md),
+看了cropperjs作者的[vue中的用法](https://fengyuanchen.github.io/photo-editor/)，这里
+我就重新整理了下Angular中如何优雅的使用cropperjs,喜欢的朋友可以start下。
+
 [在线预览](https://freezyh.github.io/angular-cropper/dist/angular-cropper/)
 
 
+如下是我新建项目的步骤，具体请看源码
 1.创建项目
 ng new angular-cropper --style=scss --skip-install
 
