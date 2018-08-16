@@ -1,3 +1,6 @@
+[在线预览](https://freezyh.github.io/angular-cropper/dist/angular-cropper/)
+
+
 1.创建项目
 ng new angular-cropper --style=scss --skip-install
 
