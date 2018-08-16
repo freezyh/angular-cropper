@@ -8,7 +8,7 @@ Angular 图片裁剪的组件实在是太少了，大多数人都会选择在Ang
 可以start下，当然案例也存在一定的兼容性，目前本人在chrome和360安全浏览器的极速模式是可以正常运行的，在火狐
 和IE10都会报错。
 
-[在线预览](https://freezyh.github.io/angular-cropper/dist/angular-cropper/)
+### [在线预览](https://freezyh.github.io/angular-cropper/dist/angular-cropper/)
 
 
 如下是我新建项目的步骤，具体请看源码
