@@ -8,7 +8,7 @@ Angular 图片裁剪的组件实在是太少了，大多数人都会选择在Ang
 和IE10都会报错。cropperjs上也有提到有转换成ts版本的，目前没有进行更多的测试，大家可以[参考下](https://github.com/matheusdavidson/angular-cropperjs)
 
 ## 希望喜欢的朋友star下   ^=^  ^=^  ^=^
-### [github地址](https://github.com/freezyh/angular-cropper)
+
 ### [在线预览](https://freezyh.github.io/angular-cropper/dist/angular-cropper/)
 
 
